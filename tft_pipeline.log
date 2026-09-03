@@ -1,0 +1,277 @@
+2026-09-02 00:20:47,122 [INFO] Starting daily ingestion pipeline for date: 2026-09-02
+2026-09-02 00:20:48,503 [INFO] Ingested 0 records for NA1 CHALLENGER.
+2026-09-02 05:59:12,569 [INFO] Starting daily ingestion pipeline for date: 2026-09-02
+2026-09-02 05:59:50,026 [INFO] Starting daily ingestion pipeline for date: 2026-09-02
+2026-09-02 06:05:08,089 [INFO] Starting daily ingestion pipeline for date: 2026-09-02
+2026-09-02 06:05:08,887 [INFO] Successfully ingested 2 players for NA1 CHALLENGER.
+2026-09-02 06:05:10,802 [INFO] Successfully ingested 14 players for NA1 GRANDMASTER.
+2026-09-02 06:05:13,145 [INFO] Successfully ingested 66 players for NA1 MASTER.
+2026-09-02 06:05:15,525 [INFO] Successfully ingested 2 players for EUW1 CHALLENGER.
+2026-09-02 06:05:17,405 [INFO] Successfully ingested 15 players for EUW1 GRANDMASTER.
+2026-09-02 06:05:19,586 [INFO] Successfully ingested 95 players for EUW1 MASTER.
+2026-09-02 06:05:22,132 [INFO] Successfully ingested 4 players for KR CHALLENGER.
+2026-09-02 06:05:24,149 [INFO] Successfully ingested 25 players for KR GRANDMASTER.
+2026-09-02 06:05:26,211 [INFO] Successfully ingested 97 players for KR MASTER.
+2026-09-02 06:05:28,568 [INFO] Successfully ingested 2 players for EUN1 CHALLENGER.
+2026-09-02 06:05:30,777 [INFO] Successfully ingested 4 players for EUN1 GRANDMASTER.
+2026-09-02 06:05:32,803 [INFO] Successfully ingested 12 players for EUN1 MASTER.
+2026-09-02 06:05:34,753 [INFO] Successfully ingested 4 players for BR1 CHALLENGER.
+2026-09-02 06:05:36,671 [INFO] Successfully ingested 7 players for BR1 GRANDMASTER.
+2026-09-02 06:05:38,597 [INFO] Successfully ingested 14 players for BR1 MASTER.
+2026-09-02 06:05:39,797 [INFO] Ingestion complete. Total records stored: 363
+2026-09-02 06:05:39,799 [INFO] Purge complete. Removed 0 records older than 2026-08-28.
+2026-09-02 06:13:04,068 [INFO] Starting daily ingestion pipeline for date: 2026-09-02
+2026-09-02 06:13:04,898 [INFO] Successfully ingested 2 players for NA1 CHALLENGER.
+2026-09-02 06:13:06,819 [INFO] Successfully ingested 14 players for NA1 GRANDMASTER.
+2026-09-02 06:13:08,822 [INFO] Successfully ingested 67 players for NA1 MASTER.
+2026-09-02 06:13:10,848 [INFO] Successfully ingested 2 players for EUW1 CHALLENGER.
+2026-09-02 06:13:12,810 [INFO] Successfully ingested 15 players for EUW1 GRANDMASTER.
+2026-09-02 06:13:14,844 [INFO] Successfully ingested 95 players for EUW1 MASTER.
+2026-09-02 06:13:16,919 [INFO] Successfully ingested 4 players for KR CHALLENGER.
+2026-09-02 06:13:19,029 [INFO] Successfully ingested 25 players for KR GRANDMASTER.
+2026-09-02 06:13:21,180 [INFO] Successfully ingested 97 players for KR MASTER.
+2026-09-02 06:13:23,556 [INFO] Successfully ingested 2 players for EUN1 CHALLENGER.
+2026-09-02 06:13:25,581 [INFO] Successfully ingested 4 players for EUN1 GRANDMASTER.
+2026-09-02 06:13:27,599 [INFO] Successfully ingested 12 players for EUN1 MASTER.
+2026-09-02 06:13:29,674 [INFO] Successfully ingested 4 players for BR1 CHALLENGER.
+2026-09-02 06:13:31,784 [INFO] Successfully ingested 7 players for BR1 GRANDMASTER.
+2026-09-02 06:13:33,843 [INFO] Successfully ingested 14 players for BR1 MASTER.
+2026-09-02 06:13:36,494 [INFO] Successfully ingested 1 players for JP1 CHALLENGER.
+2026-09-02 06:13:38,578 [INFO] Successfully ingested 5 players for JP1 GRANDMASTER.
+2026-09-02 06:13:40,770 [INFO] Successfully ingested 38 players for JP1 MASTER.
+2026-09-02 06:13:41,986 [ERROR] Network error on vn1 challenger: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:41,988 [ERROR] Network error on vn1 grandmaster: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:41,989 [ERROR] Network error on vn1 master: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:42,004 [ERROR] Network error on ph2 challenger: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:42,010 [ERROR] Network error on ph2 grandmaster: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:42,014 [ERROR] Network error on ph2 master: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:45,716 [INFO] Successfully ingested 11 players for SG2 GRANDMASTER.
+2026-09-02 06:13:48,049 [INFO] Successfully ingested 37 players for SG2 MASTER.
+2026-09-02 06:13:49,271 [ERROR] Network error on th2 challenger: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:49,274 [ERROR] Network error on th2 grandmaster: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:49,276 [ERROR] Network error on th2 master: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-02 06:13:50,858 [INFO] Successfully ingested 1 players for TW2 CHALLENGER.
+2026-09-02 06:13:53,334 [INFO] Successfully ingested 10 players for TW2 GRANDMASTER.
+2026-09-02 06:13:55,610 [INFO] Successfully ingested 31 players for TW2 MASTER.
+2026-09-02 06:13:58,453 [INFO] Successfully ingested 6 players for VN2 CHALLENGER.
+2026-09-02 06:14:00,762 [INFO] Successfully ingested 58 players for VN2 GRANDMASTER.
+2026-09-02 06:14:03,405 [INFO] Successfully ingested 277 players for VN2 MASTER.
+2026-09-02 06:14:04,606 [INFO] Ingestion complete. Total records stored: 839
+2026-09-02 06:14:04,612 [INFO] Purge complete. Removed 0 records older than 2026-08-28.
+2026-09-03 10:56:21,615 [INFO] Starting daily ingestion pipeline for date: 2026-09-03
+2026-09-03 10:56:22,259 [ERROR] API Error 401 on na1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:22,829 [ERROR] API Error 401 on na1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:23,814 [ERROR] API Error 401 on na1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:24,812 [ERROR] API Error 401 on euw1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:25,659 [ERROR] API Error 401 on euw1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:26,465 [ERROR] API Error 401 on euw1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:28,001 [ERROR] API Error 401 on kr challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:29,491 [ERROR] API Error 401 on kr grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:30,694 [ERROR] API Error 401 on kr master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:31,584 [ERROR] API Error 401 on eun1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:32,382 [ERROR] API Error 401 on eun1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:33,288 [ERROR] API Error 401 on eun1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:34,266 [ERROR] API Error 401 on br1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:34,835 [ERROR] API Error 401 on br1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:35,391 [ERROR] API Error 401 on br1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:36,605 [ERROR] API Error 401 on jp1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:37,910 [ERROR] API Error 401 on jp1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:39,127 [ERROR] API Error 401 on jp1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:39,143 [ERROR] Network error on vn1 challenger: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:39,145 [ERROR] Network error on vn1 grandmaster: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:39,146 [ERROR] Network error on vn1 master: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:39,163 [ERROR] Network error on ph2 challenger: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:39,165 [ERROR] Network error on ph2 grandmaster: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:39,166 [ERROR] Network error on ph2 master: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:40,385 [ERROR] API Error 401 on sg2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:41,590 [ERROR] API Error 401 on sg2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:42,210 [ERROR] API Error 401 on sg2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:42,224 [ERROR] Network error on th2 challenger: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:42,225 [ERROR] Network error on th2 grandmaster: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:42,227 [ERROR] Network error on th2 master: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:56:43,443 [ERROR] API Error 401 on tw2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:44,713 [ERROR] API Error 401 on tw2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:45,976 [ERROR] API Error 401 on tw2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:47,252 [ERROR] API Error 401 on vn2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:47,936 [ERROR] API Error 401 on vn2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:49,162 [ERROR] API Error 401 on vn2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:56:49,164 [INFO] Ingestion complete. Total records stored: 0
+2026-09-03 10:56:49,200 [INFO] Purge complete. Removed 0 records older than 2026-08-29.
+2026-09-03 10:57:17,935 [INFO] Starting daily ingestion pipeline for date: 2026-09-03
+2026-09-03 10:57:18,879 [ERROR] API Error 401 on na1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:19,755 [ERROR] API Error 401 on na1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:20,633 [ERROR] API Error 401 on na1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:21,114 [ERROR] API Error 401 on euw1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:21,635 [ERROR] API Error 401 on euw1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:22,417 [ERROR] API Error 401 on euw1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:23,034 [ERROR] API Error 401 on kr challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:23,656 [ERROR] API Error 401 on kr grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:24,290 [ERROR] API Error 401 on kr master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:25,097 [ERROR] API Error 401 on eun1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:25,650 [ERROR] API Error 401 on eun1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:26,199 [ERROR] API Error 401 on eun1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:26,729 [ERROR] API Error 401 on br1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:27,288 [ERROR] API Error 401 on br1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:27,821 [ERROR] API Error 401 on br1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:29,054 [ERROR] API Error 401 on jp1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:30,412 [ERROR] API Error 401 on jp1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:31,018 [ERROR] API Error 401 on jp1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:31,033 [ERROR] Network error on vn1 challenger: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,035 [ERROR] Network error on vn1 grandmaster: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,036 [ERROR] Network error on vn1 master: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,043 [ERROR] Network error on ph2 challenger: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,045 [ERROR] Network error on ph2 grandmaster: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,046 [ERROR] Network error on ph2 master: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:31,706 [ERROR] API Error 401 on sg2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:32,893 [ERROR] API Error 401 on sg2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:33,534 [ERROR] API Error 401 on sg2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:33,540 [ERROR] Network error on th2 challenger: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:33,541 [ERROR] Network error on th2 grandmaster: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:33,543 [ERROR] Network error on th2 master: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:57:34,721 [ERROR] API Error 401 on tw2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:35,361 [ERROR] API Error 401 on tw2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:35,987 [ERROR] API Error 401 on tw2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:36,685 [ERROR] API Error 401 on vn2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:37,378 [ERROR] API Error 401 on vn2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:38,591 [ERROR] API Error 401 on vn2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:38,593 [INFO] Ingestion complete. Total records stored: 0
+2026-09-03 10:57:38,594 [INFO] Purge complete. Removed 0 records older than 2026-08-29.
+2026-09-03 10:57:54,421 [INFO] Starting daily ingestion pipeline for date: 2026-09-03
+2026-09-03 10:57:54,971 [ERROR] API Error 401 on na1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:55,495 [ERROR] API Error 401 on na1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:56,032 [ERROR] API Error 401 on na1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:56,522 [ERROR] API Error 401 on euw1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:57,040 [ERROR] API Error 401 on euw1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:57,551 [ERROR] API Error 401 on euw1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:58,179 [ERROR] API Error 401 on kr challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:58,769 [ERROR] API Error 401 on kr grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:57:59,366 [ERROR] API Error 401 on kr master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:00,168 [ERROR] API Error 401 on eun1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:00,700 [ERROR] API Error 401 on eun1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:01,216 [ERROR] API Error 401 on eun1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:01,800 [ERROR] API Error 401 on br1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:02,306 [ERROR] API Error 401 on br1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:02,837 [ERROR] API Error 401 on br1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:03,477 [ERROR] API Error 401 on jp1 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:04,152 [ERROR] API Error 401 on jp1 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:04,780 [ERROR] API Error 401 on jp1 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:04,787 [ERROR] Network error on vn1 challenger: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:04,788 [ERROR] Network error on vn1 grandmaster: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:04,789 [ERROR] Network error on vn1 master: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:04,802 [ERROR] Network error on ph2 challenger: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:04,804 [ERROR] Network error on ph2 grandmaster: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:04,806 [ERROR] Network error on ph2 master: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:05,467 [ERROR] API Error 401 on sg2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:06,088 [ERROR] API Error 401 on sg2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:07,228 [ERROR] API Error 401 on sg2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:07,236 [ERROR] Network error on th2 challenger: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:07,237 [ERROR] Network error on th2 grandmaster: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:07,239 [ERROR] Network error on th2 master: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:07,906 [ERROR] API Error 401 on tw2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:08,496 [ERROR] API Error 401 on tw2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:09,119 [ERROR] API Error 401 on tw2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:09,758 [ERROR] API Error 401 on vn2 challenger: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:10,377 [ERROR] API Error 401 on vn2 grandmaster: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:11,018 [ERROR] API Error 401 on vn2 master: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-03 10:58:11,020 [INFO] Ingestion complete. Total records stored: 0
+2026-09-03 10:58:11,021 [INFO] Purge complete. Removed 0 records older than 2026-08-29.
+2026-09-03 10:58:20,677 [INFO] Starting daily ingestion pipeline for date: 2026-09-03
+2026-09-03 10:58:21,553 [INFO] Successfully ingested 7 players for NA1 CHALLENGER.
+2026-09-03 10:58:23,574 [INFO] Successfully ingested 25 players for NA1 GRANDMASTER.
+2026-09-03 10:58:25,570 [INFO] Successfully ingested 92 players for NA1 MASTER.
+2026-09-03 10:58:27,496 [INFO] Successfully ingested 6 players for EUW1 CHALLENGER.
+2026-09-03 10:58:29,363 [INFO] Successfully ingested 33 players for EUW1 GRANDMASTER.
+2026-09-03 10:58:31,789 [INFO] Successfully ingested 139 players for EUW1 MASTER.
+2026-09-03 10:58:33,823 [INFO] Successfully ingested 9 players for KR CHALLENGER.
+2026-09-03 10:58:35,866 [INFO] Successfully ingested 40 players for KR GRANDMASTER.
+2026-09-03 10:58:37,966 [INFO] Successfully ingested 160 players for KR MASTER.
+2026-09-03 10:58:39,867 [INFO] Successfully ingested 3 players for EUN1 CHALLENGER.
+2026-09-03 10:58:41,826 [INFO] Successfully ingested 5 players for EUN1 GRANDMASTER.
+2026-09-03 10:58:43,835 [INFO] Successfully ingested 21 players for EUN1 MASTER.
+2026-09-03 10:58:45,895 [INFO] Successfully ingested 6 players for BR1 CHALLENGER.
+2026-09-03 10:58:47,863 [INFO] Successfully ingested 6 players for BR1 GRANDMASTER.
+2026-09-03 10:58:49,913 [INFO] Successfully ingested 23 players for BR1 MASTER.
+2026-09-03 10:58:51,930 [INFO] Successfully ingested 2 players for JP1 CHALLENGER.
+2026-09-03 10:58:54,040 [INFO] Successfully ingested 13 players for JP1 GRANDMASTER.
+2026-09-03 10:58:56,132 [INFO] Successfully ingested 43 players for JP1 MASTER.
+2026-09-03 10:58:57,339 [ERROR] Network error on vn1 challenger: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:57,341 [ERROR] Network error on vn1 grandmaster: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:57,342 [ERROR] Network error on vn1 master: HTTPSConnectionPool(host='vn1.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='vn1.api.riotgames.com', port=443): Failed to resolve 'vn1.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:57,348 [ERROR] Network error on ph2 challenger: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:57,349 [ERROR] Network error on ph2 grandmaster: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:57,351 [ERROR] Network error on ph2 master: HTTPSConnectionPool(host='ph2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='ph2.api.riotgames.com', port=443): Failed to resolve 'ph2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:58:58,241 [INFO] Successfully ingested 2 players for SG2 CHALLENGER.
+2026-09-03 10:59:00,384 [INFO] Successfully ingested 13 players for SG2 GRANDMASTER.
+2026-09-03 10:59:03,352 [INFO] Successfully ingested 57 players for SG2 MASTER.
+2026-09-03 10:59:04,559 [ERROR] Network error on th2 challenger: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/challenger (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:59:04,561 [ERROR] Network error on th2 grandmaster: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/grandmaster (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:59:04,562 [ERROR] Network error on th2 master: HTTPSConnectionPool(host='th2.api.riotgames.com', port=443): Max retries exceeded with url: /tft/league/v1/master (Caused by NameResolutionError("HTTPSConnection(host='th2.api.riotgames.com', port=443): Failed to resolve 'th2.api.riotgames.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-03 10:59:06,265 [INFO] Successfully ingested 2 players for TW2 CHALLENGER.
+2026-09-03 10:59:08,503 [INFO] Successfully ingested 13 players for TW2 GRANDMASTER.
+2026-09-03 10:59:10,563 [INFO] Successfully ingested 48 players for TW2 MASTER.
+2026-09-03 10:59:12,672 [INFO] Successfully ingested 17 players for VN2 CHALLENGER.
+2026-09-03 10:59:14,756 [INFO] Successfully ingested 87 players for VN2 GRANDMASTER.
+2026-09-03 10:59:17,802 [INFO] Successfully ingested 420 players for VN2 MASTER.
+2026-09-03 10:59:19,003 [INFO] Ingestion complete. Total records stored: 1292
+2026-09-03 10:59:19,005 [INFO] Purge complete. Removed 0 records older than 2026-08-29.
+2026-09-03 12:07:27,990 [INFO] Initial run. Window defaulting to past 24h: 1788361647 -> 1788448047
+2026-09-03 12:07:29,148 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:07:30,152 [INFO] Loaded 7 players for NA1 CHALLENGER.
+2026-09-03 12:07:31,918 [INFO] Loaded 25 players for NA1 GRANDMASTER.
+2026-09-03 12:07:34,093 [INFO] Loaded 94 players for NA1 MASTER.
+2026-09-03 12:07:36,175 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:07:36,678 [INFO] Loaded 6 players for EUW1 CHALLENGER.
+2026-09-03 12:07:38,786 [INFO] Loaded 33 players for EUW1 GRANDMASTER.
+2026-09-03 12:07:40,876 [INFO] Loaded 144 players for EUW1 MASTER.
+2026-09-03 12:07:43,295 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:07:44,077 [INFO] Loaded 23 players for KR CHALLENGER.
+2026-09-03 12:07:45,938 [INFO] Loaded 38 players for KR GRANDMASTER.
+2026-09-03 12:07:47,819 [INFO] Loaded 154 players for KR MASTER.
+2026-09-03 12:07:49,880 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:07:50,672 [INFO] Loaded 3 players for EUN1 CHALLENGER.
+2026-09-03 12:07:52,367 [INFO] Loaded 5 players for EUN1 GRANDMASTER.
+2026-09-03 12:07:54,125 [INFO] Loaded 21 players for EUN1 MASTER.
+2026-09-03 12:07:55,869 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:07:56,438 [INFO] Loaded 6 players for BR1 CHALLENGER.
+2026-09-03 12:07:58,252 [INFO] Loaded 6 players for BR1 GRANDMASTER.
+2026-09-03 12:08:00,010 [INFO] Loaded 24 players for BR1 MASTER.
+2026-09-03 12:08:01,838 [ERROR] HTTP 403: Riot API Key is invalid or expired.
+2026-09-03 12:08:03,054 [INFO] Loaded 5 players for JP1 CHALLENGER.
+2026-09-03 12:08:04,880 [INFO] Loaded 16 players for JP1 GRANDMASTER.
+2026-09-03 12:08:06,723 [INFO] Loaded 37 players for JP1 MASTER.
+2026-09-03 12:08:08,097 [INFO] Successfully recorded 647 snapshots for Run ID 1.
+2026-09-03 13:01:31,985 [INFO] Previous run detected (ID: 1). Window: 1788448047 -> 1788451291
+2026-09-03 13:01:33,303 [INFO] Loaded 7 players for NA1 CHALLENGER.
+2026-09-03 13:01:35,491 [INFO] Loaded 25 players for NA1 GRANDMASTER.
+2026-09-03 13:01:37,912 [INFO] Loaded 97 players for NA1 MASTER.
+2026-09-03 13:01:40,084 [INFO] Loaded 6 players for EUW1 CHALLENGER.
+2026-09-03 13:01:42,299 [INFO] Loaded 33 players for EUW1 GRANDMASTER.
+2026-09-03 13:01:44,557 [INFO] Loaded 149 players for EUW1 MASTER.
+2026-09-03 13:01:46,736 [INFO] Loaded 23 players for KR CHALLENGER.
+2026-09-03 13:01:48,790 [INFO] Loaded 38 players for KR GRANDMASTER.
+2026-09-03 13:01:51,030 [INFO] Loaded 159 players for KR MASTER.
+2026-09-03 13:01:53,236 [INFO] Loaded 3 players for EUN1 CHALLENGER.
+2026-09-03 13:01:55,479 [INFO] Loaded 5 players for EUN1 GRANDMASTER.
+2026-09-03 13:01:57,424 [INFO] Loaded 23 players for EUN1 MASTER.
+2026-09-03 13:01:59,641 [INFO] Loaded 6 players for BR1 CHALLENGER.
+2026-09-03 13:02:01,790 [INFO] Loaded 6 players for BR1 GRANDMASTER.
+2026-09-03 13:02:03,872 [INFO] Loaded 25 players for BR1 MASTER.
+2026-09-03 13:02:06,228 [INFO] Loaded 5 players for JP1 CHALLENGER.
+2026-09-03 13:02:08,281 [INFO] Loaded 16 players for JP1 GRANDMASTER.
+2026-09-03 13:02:10,562 [INFO] Loaded 38 players for JP1 MASTER.
+2026-09-03 13:02:12,007 [INFO] Successfully recorded 664 snapshots for Run ID 2.
+2026-09-03 13:02:12,010 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-03 13:02:39,739 [INFO] Enriched 10/200 candidates. Latest: ViggoZe#EUW (Top 1s: 1)
+2026-09-03 13:03:19,950 [INFO] Enriched 30/200 candidates. Latest: rety#0530 (Top 1s: 1)
+2026-09-03 13:04:09,608 [INFO] Enriched 60/200 candidates. Latest: ich bin bin#kr3 (Top 1s: 0)
+2026-09-03 13:04:23,900 [INFO] Enriched 70/200 candidates. Latest: A M#KR1 (Top 1s: 0)
+2026-09-03 13:05:20,644 [INFO] Enriched 110/200 candidates. Latest: tarakoman#0120 (Top 1s: 0)
+2026-09-03 13:05:33,624 [INFO] Enriched 120/200 candidates. Latest: ReReReRoll#KR1 (Top 1s: 0)
+2026-09-03 13:05:45,487 [INFO] Enriched 130/200 candidates. Latest: pitzy#2676 (Top 1s: 0)
+2026-09-03 13:05:55,936 [INFO] Enriched 140/200 candidates. Latest: Stily#KR1 (Top 1s: 0)
+2026-09-03 13:06:07,980 [INFO] Enriched 150/200 candidates. Latest: Potata#JP1 (Top 1s: 0)
+2026-09-03 13:06:24,069 [INFO] Enriched 160/200 candidates. Latest: MilkYippie#9840 (Top 1s: 0)
+2026-09-03 13:06:36,508 [INFO] Enriched 170/200 candidates. Latest: Mimosa 7#JP1 (Top 1s: 0)
+2026-09-03 13:06:51,513 [INFO] Enriched 180/200 candidates. Latest: kuran0827#JP1 (Top 1s: 1)
+2026-09-03 13:07:03,671 [INFO] Enriched 190/200 candidates. Latest: NLV Petikk#LOVEC (Top 1s: 0)
+2026-09-03 13:07:14,548 [INFO] Enriched 200/200 candidates. Latest: polo#tft (Top 1s: 0)
