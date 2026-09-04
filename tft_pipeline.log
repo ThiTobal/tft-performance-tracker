@@ -309,3 +309,38 @@
 2026-09-03 19:44:58,314 [INFO] Enriched 100/100 candidates. Harvested 1031 lobby names so far.
 2026-09-03 19:44:58,447 [INFO] Resolving names directly for 164 active climbers without names...
 2026-09-03 19:46:40,613 [INFO] Successfully resolved and cached 164 additional player names.
+2026-09-04 05:09:20,595 [INFO] Previous run detected (ID: 3). Window: 1788475129 -> 1788509360
+2026-09-04 05:09:20,701 [INFO] Loaded 1046 known player identities from local cache.
+2026-09-04 05:09:21,638 [INFO] Loaded 7 players for NA1 CHALLENGER.
+2026-09-04 05:09:23,376 [INFO] Loaded 41 players for NA1 GRANDMASTER.
+2026-09-04 05:09:25,111 [INFO] Loaded 115 players for NA1 MASTER.
+2026-09-04 05:09:27,365 [INFO] Loaded 6 players for EUW1 CHALLENGER.
+2026-09-04 05:09:29,122 [INFO] Loaded 54 players for EUW1 GRANDMASTER.
+2026-09-04 05:09:31,103 [INFO] Loaded 172 players for EUW1 MASTER.
+2026-09-04 05:09:33,491 [INFO] Loaded 23 players for KR CHALLENGER.
+2026-09-04 05:09:35,299 [INFO] Loaded 38 players for KR GRANDMASTER.
+2026-09-04 05:09:37,448 [INFO] Loaded 202 players for KR MASTER.
+2026-09-04 05:09:39,616 [INFO] Loaded 3 players for EUN1 CHALLENGER.
+2026-09-04 05:09:41,726 [INFO] Loaded 6 players for EUN1 GRANDMASTER.
+2026-09-04 05:09:43,548 [INFO] Loaded 30 players for EUN1 MASTER.
+2026-09-04 05:09:45,287 [INFO] Loaded 7 players for BR1 CHALLENGER.
+2026-09-04 05:09:47,416 [INFO] Loaded 7 players for BR1 GRANDMASTER.
+2026-09-04 05:09:49,142 [INFO] Loaded 33 players for BR1 MASTER.
+2026-09-04 05:09:51,563 [INFO] Loaded 5 players for JP1 CHALLENGER.
+2026-09-04 05:09:53,381 [INFO] Loaded 16 players for JP1 GRANDMASTER.
+2026-09-04 05:09:55,224 [INFO] Loaded 53 players for JP1 MASTER.
+2026-09-04 05:09:56,826 [INFO] Successfully recorded 818 snapshots for Run ID 4.
+2026-09-04 05:09:56,829 [INFO] Starting Top 1 enrichment for 100 top performers...
+2026-09-04 05:10:56,562 [INFO] Enriched 10/100 candidates. Harvested 343 lobby names so far.
+2026-09-04 05:11:53,276 [INFO] Enriched 20/100 candidates. Harvested 572 lobby names so far.
+2026-09-04 05:12:02,500 [WARNING] Rate limited (429). Sleeping for 5s...
+2026-09-04 05:12:39,544 [INFO] Enriched 30/100 candidates. Harvested 702 lobby names so far.
+2026-09-04 05:13:17,026 [INFO] Enriched 40/100 candidates. Harvested 828 lobby names so far.
+2026-09-04 05:13:52,707 [INFO] Enriched 50/100 candidates. Harvested 919 lobby names so far.
+2026-09-04 05:14:26,812 [INFO] Enriched 60/100 candidates. Harvested 1022 lobby names so far.
+2026-09-04 05:14:51,781 [INFO] Enriched 70/100 candidates. Harvested 1093 lobby names so far.
+2026-09-04 05:15:10,729 [INFO] Enriched 80/100 candidates. Harvested 1140 lobby names so far.
+2026-09-04 05:15:35,689 [INFO] Enriched 90/100 candidates. Harvested 1207 lobby names so far.
+2026-09-04 05:16:02,041 [INFO] Enriched 100/100 candidates. Harvested 1265 lobby names so far.
+2026-09-04 05:16:02,285 [INFO] Resolving names directly for 83 active climbers without names...
+2026-09-04 05:16:55,272 [INFO] Successfully resolved and cached 83 additional player names.

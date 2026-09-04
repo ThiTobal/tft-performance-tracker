@@ -1,4 +1,5 @@
 import sqlite3
+from datetime import datetime, timedelta
 import pandas as pd
 import streamlit as st
 
@@ -12,6 +13,15 @@ st.set_page_config(
 
 def get_connection():
     return sqlite3.connect(DB_NAME, timeout=30.0)
+
+def to_brt_string(utc_str: str) -> str:
+    """Converts a UTC 'YYYY-MM-DD HH:MM:SS' string to BRT (UTC -3)."""
+    try:
+        dt_utc = datetime.strptime(utc_str, "%Y-%m-%d %H:%M:%S")
+        dt_brt = dt_utc - timedelta(hours=3)
+        return dt_brt.strftime("%Y-%m-%d %H:%M:%S")
+    except Exception:
+        return utc_str
 
 def load_runs():
     conn = get_connection()
@@ -86,11 +96,12 @@ latest_run = df_runs.iloc[0]
 baseline_run_index = min(num_windows, total_available_runs - 1)
 baseline_run = df_runs.iloc[baseline_run_index]
 
-latest_dt_str = latest_run["run_datetime"]
-baseline_dt_str = baseline_run["run_datetime"]
+# Convert timestamps to BRT (UTC -3)
+latest_dt_str = to_brt_string(latest_run["run_datetime"])
+baseline_dt_str = to_brt_string(baseline_run["run_datetime"])
 
-st.sidebar.caption(f"**Latest Run:** {latest_dt_str} UTC")
-st.sidebar.caption(f"**Baseline Run:** {baseline_dt_str} UTC")
+st.sidebar.caption(f"**Latest Run:** {latest_dt_str} BRT")
+st.sidebar.caption(f"**Baseline Run:** {baseline_dt_str} BRT")
 
 st.sidebar.markdown("---")
 st.sidebar.header("Leaderboard Filters")
@@ -118,7 +129,7 @@ min_games = st.sidebar.number_input(
     min_value=1, 
     max_value=50, 
     value=max(2, num_windows * 2),
-    help="Filters out players with too few games to prevent high-rate anomalies."
+    help="Filters out players with too few games across all ranking metrics."
 )
 
 # Multi-Window Aggregation Logic
@@ -136,7 +147,7 @@ aggregated = raw_snapshots.groupby(["region", "player_id"]).agg({
     "window_top1": sum_top1
 }).reset_index()
 
-# Merge back the latest rank, LP, total games, and Riot ID
+# Merge back latest rank, LP, total games, and Riot ID
 merged = pd.merge(
     aggregated,
     latest_metadata[["region", "player_id", "riot_id", "tier", "league_points", "total_games", "total_top4_pct"]],
@@ -155,7 +166,7 @@ merged["window_top1_pct"] = merged.apply(
     axis=1
 )
 
-# Apply Filters
+# Apply Region & Tier Filters
 df_filtered = merged.copy()
 
 if selected_region != "ALL":
@@ -167,17 +178,18 @@ if selected_tier != "ALL":
     df_filtered["tier_score"] = df_filtered["tier"].map(lambda t: tier_scores.get(t, 0))
     df_filtered = df_filtered[df_filtered["tier_score"] >= target]
 
+# Apply Min Games Filter across ALL ranking modes
+df_filtered = df_filtered[df_filtered["window_games"] >= min_games]
+
 # Sorting Logic
 if ranking_metric == "LP Gain":
     df_filtered = df_filtered.sort_values(by=["lp_gain", "window_top4_pct"], ascending=[False, False])
 elif ranking_metric == "Window Top 1%":
-    df_filtered = df_filtered[df_filtered["window_games"] >= min_games]
     df_filtered = df_filtered.sort_values(by=["window_top1_pct", "lp_gain"], ascending=[False, False])
 else:  # Window Top 4%
-    df_filtered = df_filtered[df_filtered["window_games"] >= min_games]
     df_filtered = df_filtered.sort_values(by=["window_top4_pct", "lp_gain"], ascending=[False, False])
 
-# Format Display Name cleanly (replaces any remaining None with a clean fallback)
+# Format Display Name cleanly
 def format_display_name(row):
     if pd.notna(row["riot_id"]) and str(row["riot_id"]).strip() not in ("", "None"):
         return str(row["riot_id"])
@@ -188,7 +200,7 @@ df_filtered["display_name"] = df_filtered.apply(format_display_name, axis=1)
 
 # Summary Banner
 window_title = f"{num_windows} Window" if num_windows == 1 else f"{num_windows} Windows"
-st.subheader(f"Performance Overview: {window_title} ({baseline_dt_str} → {latest_dt_str} UTC)")
+st.subheader(f"Performance Overview: {window_title} ({baseline_dt_str} → {latest_dt_str} BRT)")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Active Filtered Players", len(df_filtered))
