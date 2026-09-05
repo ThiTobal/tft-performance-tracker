@@ -13,11 +13,11 @@ logging.basicConfig(
 )
 
 # Configuration Parameters
-API_KEY = os.getenv("RIOT_API_KEY", "RGAPI-bf69e068-2f24-485f-8043-db6a55bee9a0")
+API_KEY = os.getenv("RIOT_API_KEY", "RGAPI-eb878b41-04da-40ee-abaa-49fe5bf65944")
 DB_NAME = "tft_analytics.db"
 TARGET_REGIONS = ["na1", "euw1", "kr", "eun1", "br1", "jp1"]
 TIERS = ["challenger", "grandmaster", "master"]
-TOP_CANDIDATE_LIMIT = 100  # Enriched with Top 1s
+TOP_CANDIDATE_LIMIT = 200  # Enriched with Top 1s
 ACTIVE_RESOLVE_LIMIT_PER_REGION = 30  # Resolves names for top active climbers per region
 RETENTION_DAYS = 5
 
