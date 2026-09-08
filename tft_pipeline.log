@@ -415,3 +415,94 @@
 2026-09-05 15:00:25,771 [INFO] Enriched 200/200 candidates. Harvested 2729 lobby names so far.
 2026-09-05 15:00:26,408 [INFO] Resolving names directly for 41 active climbers without names...
 2026-09-05 15:01:10,441 [INFO] Successfully resolved and cached 41 additional player names.
+2026-09-07 18:48:11,520 [INFO] Previous run detected (ID: 8). Window: 1788629454 -> 1788817691
+2026-09-07 18:48:13,291 [INFO] Loaded 3129 known player identities from local cache.
+2026-09-07 18:48:14,855 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-07 18:48:15,987 [INFO] Loaded 69 players for NA1 GRANDMASTER.
+2026-09-07 18:48:18,269 [INFO] Loaded 309 players for NA1 MASTER.
+2026-09-07 18:48:20,573 [INFO] Loaded 36 players for EUW1 CHALLENGER.
+2026-09-07 18:48:22,505 [INFO] Loaded 99 players for EUW1 GRANDMASTER.
+2026-09-07 18:48:25,256 [INFO] Loaded 380 players for EUW1 MASTER.
+2026-09-07 18:48:27,871 [INFO] Loaded 49 players for KR CHALLENGER.
+2026-09-07 18:48:29,967 [INFO] Loaded 131 players for KR GRANDMASTER.
+2026-09-07 18:48:32,420 [INFO] Loaded 464 players for KR MASTER.
+2026-09-07 18:48:34,671 [INFO] Loaded 7 players for EUN1 CHALLENGER.
+2026-09-07 18:48:37,142 [INFO] Loaded 23 players for EUN1 GRANDMASTER.
+2026-09-07 18:48:39,084 [INFO] Loaded 53 players for EUN1 MASTER.
+2026-09-07 18:48:41,081 [INFO] Loaded 12 players for BR1 CHALLENGER.
+2026-09-07 18:48:43,015 [INFO] Loaded 15 players for BR1 GRANDMASTER.
+2026-09-07 18:48:45,783 [INFO] Loaded 68 players for BR1 MASTER.
+2026-09-07 18:48:49,305 [INFO] Loaded 20 players for JP1 CHALLENGER.
+2026-09-07 18:48:51,987 [INFO] Loaded 25 players for JP1 GRANDMASTER.
+2026-09-07 18:48:54,751 [INFO] Loaded 131 players for JP1 MASTER.
+2026-09-07 18:48:56,657 [INFO] Successfully recorded 1891 snapshots for Run ID 9.
+2026-09-07 18:48:56,666 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-07 18:53:35,144 [INFO] Enriched 10/200 candidates. Harvested 822 lobby names so far.
+2026-09-07 18:57:51,128 [WARNING] Rate limited (429). Sleeping for 12s...
+2026-09-07 18:58:16,251 [INFO] Enriched 20/200 candidates. Harvested 1164 lobby names so far.
+2026-09-07 19:02:11,341 [INFO] Enriched 30/200 candidates. Harvested 1512 lobby names so far.
+2026-09-07 19:05:39,398 [INFO] Enriched 40/200 candidates. Harvested 1699 lobby names so far.
+2026-09-07 19:09:12,312 [INFO] Enriched 50/200 candidates. Harvested 1868 lobby names so far.
+2026-09-07 19:11:51,623 [INFO] Enriched 60/200 candidates. Harvested 2016 lobby names so far.
+2026-09-07 19:15:04,689 [INFO] Enriched 70/200 candidates. Harvested 2184 lobby names so far.
+2026-09-07 19:17:34,918 [INFO] Enriched 80/200 candidates. Harvested 2297 lobby names so far.
+2026-09-07 19:20:18,853 [INFO] Enriched 90/200 candidates. Harvested 2361 lobby names so far.
+2026-09-07 19:22:48,995 [INFO] Enriched 100/200 candidates. Harvested 2445 lobby names so far.
+2026-09-07 19:24:21,394 [INFO] Enriched 110/200 candidates. Harvested 2559 lobby names so far.
+2026-09-07 19:25:59,287 [INFO] Enriched 120/200 candidates. Harvested 2653 lobby names so far.
+2026-09-07 19:27:22,036 [INFO] Enriched 130/200 candidates. Harvested 2706 lobby names so far.
+2026-09-07 19:28:58,251 [INFO] Enriched 140/200 candidates. Harvested 2748 lobby names so far.
+2026-09-07 19:30:38,016 [INFO] Enriched 150/200 candidates. Harvested 2814 lobby names so far.
+2026-09-07 19:32:04,338 [INFO] Enriched 160/200 candidates. Harvested 2864 lobby names so far.
+2026-09-07 19:34:06,429 [INFO] Enriched 170/200 candidates. Harvested 2941 lobby names so far.
+2026-09-07 19:35:48,945 [INFO] Enriched 180/200 candidates. Harvested 2974 lobby names so far.
+2026-09-07 19:37:50,579 [INFO] Enriched 190/200 candidates. Harvested 3091 lobby names so far.
+2026-09-07 19:39:31,688 [INFO] Enriched 200/200 candidates. Harvested 3150 lobby names so far.
+2026-09-07 19:39:32,881 [INFO] Resolving names directly for 9 active climbers without names...
+2026-09-07 19:39:42,193 [INFO] Successfully resolved and cached 9 additional player names.
+2026-09-07 21:26:11,581 [INFO] Previous run detected (ID: 8). Window: 1788629454 -> 1788827171
+2026-09-07 21:26:11,788 [INFO] Loaded 4210 known player identities from local cache.
+2026-09-07 21:26:12,815 [INFO] Loaded 21 players for NA1 CHALLENGER.
+2026-09-07 21:26:14,626 [INFO] Loaded 69 players for NA1 GRANDMASTER.
+2026-09-07 21:26:16,691 [INFO] Loaded 321 players for NA1 MASTER.
+2026-09-07 21:26:18,457 [INFO] Loaded 42 players for EUW1 CHALLENGER.
+2026-09-07 21:26:20,597 [INFO] Loaded 117 players for EUW1 GRANDMASTER.
+2026-09-07 21:26:22,876 [INFO] Loaded 370 players for EUW1 MASTER.
+2026-09-07 21:26:25,584 [INFO] Loaded 49 players for KR CHALLENGER.
+2026-09-07 21:26:28,048 [INFO] Loaded 131 players for KR GRANDMASTER.
+2026-09-07 21:26:30,597 [INFO] Loaded 471 players for KR MASTER.
+2026-09-07 21:26:32,628 [INFO] Loaded 10 players for EUN1 CHALLENGER.
+2026-09-07 21:26:34,776 [INFO] Loaded 22 players for EUN1 GRANDMASTER.
+2026-09-07 21:26:36,821 [INFO] Loaded 54 players for EUN1 MASTER.
+2026-09-07 21:26:38,706 [INFO] Loaded 12 players for BR1 CHALLENGER.
+2026-09-07 21:26:41,052 [INFO] Loaded 15 players for BR1 GRANDMASTER.
+2026-09-07 21:26:42,841 [INFO] Loaded 74 players for BR1 MASTER.
+2026-09-07 21:26:45,383 [INFO] Loaded 20 players for JP1 CHALLENGER.
+2026-09-07 21:26:48,054 [INFO] Loaded 25 players for JP1 GRANDMASTER.
+2026-09-07 21:26:50,644 [INFO] Loaded 132 players for JP1 MASTER.
+2026-09-07 21:26:52,519 [INFO] Successfully recorded 1955 snapshots for Run ID 10.
+2026-09-07 21:26:52,522 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-07 21:30:08,590 [INFO] Enriched 10/200 candidates. Harvested 736 lobby names so far.
+2026-09-07 21:33:30,604 [INFO] Enriched 20/200 candidates. Harvested 1222 lobby names so far.
+2026-09-07 21:34:33,463 [WARNING] Rate limited (429). Sleeping for 23s...
+2026-09-07 21:36:37,486 [INFO] Enriched 30/200 candidates. Harvested 1403 lobby names so far.
+2026-09-07 21:39:03,193 [INFO] Enriched 40/200 candidates. Harvested 1640 lobby names so far.
+2026-09-07 21:41:16,396 [INFO] Enriched 50/200 candidates. Harvested 1813 lobby names so far.
+2026-09-07 21:42:44,573 [WARNING] Rate limited (429). Sleeping for 34s...
+2026-09-07 21:44:18,743 [INFO] Enriched 60/200 candidates. Harvested 1995 lobby names so far.
+2026-09-07 21:45:40,281 [WARNING] Network error: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)). Retrying in 5s...
+2026-09-07 21:45:51,419 [WARNING] Network error: ("Connection broken: ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)", ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)). Retrying in 5s...
+2026-09-07 21:47:14,679 [INFO] Enriched 70/200 candidates. Harvested 2151 lobby names so far.
+2026-09-07 21:50:19,711 [INFO] Enriched 80/200 candidates. Harvested 2263 lobby names so far.
+2026-09-07 21:53:00,927 [INFO] Enriched 90/200 candidates. Harvested 2357 lobby names so far.
+2026-09-07 21:55:24,840 [INFO] Enriched 100/200 candidates. Harvested 2432 lobby names so far.
+2026-09-07 21:57:26,813 [INFO] Enriched 110/200 candidates. Harvested 2515 lobby names so far.
+2026-09-07 21:59:42,133 [INFO] Enriched 120/200 candidates. Harvested 2564 lobby names so far.
+2026-09-07 22:02:06,474 [INFO] Enriched 130/200 candidates. Harvested 2679 lobby names so far.
+2026-09-07 22:04:16,067 [INFO] Enriched 140/200 candidates. Harvested 2727 lobby names so far.
+2026-09-07 22:06:37,939 [INFO] Enriched 150/200 candidates. Harvested 2829 lobby names so far.
+2026-09-07 22:09:00,296 [INFO] Enriched 160/200 candidates. Harvested 2895 lobby names so far.
+2026-09-07 22:11:24,570 [INFO] Enriched 170/200 candidates. Harvested 3010 lobby names so far.
+2026-09-07 22:13:13,879 [INFO] Enriched 180/200 candidates. Harvested 3079 lobby names so far.
+2026-09-07 22:14:47,574 [INFO] Enriched 190/200 candidates. Harvested 3106 lobby names so far.
+2026-09-07 22:17:12,048 [INFO] Enriched 200/200 candidates. Harvested 3206 lobby names so far.

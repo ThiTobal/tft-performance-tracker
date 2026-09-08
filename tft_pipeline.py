@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 
 # Configuration Parameters
-API_KEY = os.getenv("RIOT_API_KEY", "RGAPI-eb878b41-04da-40ee-abaa-49fe5bf65944")
+API_KEY = os.getenv("RIOT_API_KEY", "RGAPI-6dec7b14-214f-4081-aa68-75417de612bb")
 DB_NAME = "tft_analytics.db"
 TARGET_REGIONS = ["na1", "euw1", "kr", "eun1", "br1", "jp1"]
 TIERS = ["challenger", "grandmaster", "master"]
