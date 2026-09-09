@@ -550,3 +550,73 @@
 2026-09-08 06:37:42,984 [INFO] Enriched 200/200 candidates. Harvested 1951 lobby names so far.
 2026-09-08 06:37:46,691 [INFO] Resolving names directly for 9 active climbers without names...
 2026-09-08 06:37:57,481 [INFO] Successfully resolved and cached 9 additional player names.
+2026-09-09 06:32:11,196 [INFO] Previous run detected (ID: 11). Window: 1788859421 -> 1788946331
+2026-09-09 06:32:11,497 [INFO] Loaded 4785 known player identities from local cache.
+2026-09-09 06:32:12,581 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:13,245 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:13,868 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:14,977 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:15,710 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:16,376 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:17,851 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:19,174 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:20,124 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:21,274 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:21,960 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:22,688 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:23,391 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:24,173 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:24,802 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:26,191 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:26,931 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:28,304 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-09 06:32:28,311 [INFO] Successfully recorded 0 snapshots for Run ID 12.
+2026-09-09 06:32:28,655 [INFO] Purged 4 runs older than 5 days.
+2026-09-09 07:36:03,866 [INFO] Previous run detected (ID: 11). Window: 1788859421 -> 1788950163
+2026-09-09 07:36:03,999 [INFO] Loaded 4785 known player identities from local cache.
+2026-09-09 07:36:05,010 [INFO] Loaded 32 players for NA1 CHALLENGER.
+2026-09-09 07:36:07,165 [INFO] Loaded 118 players for NA1 GRANDMASTER.
+2026-09-09 07:36:09,637 [INFO] Loaded 357 players for NA1 MASTER.
+2026-09-09 07:36:11,802 [INFO] Loaded 52 players for EUW1 CHALLENGER.
+2026-09-09 07:36:13,656 [INFO] Loaded 141 players for EUW1 GRANDMASTER.
+2026-09-09 07:36:15,721 [INFO] Loaded 456 players for EUW1 MASTER.
+2026-09-09 07:36:18,119 [INFO] Loaded 59 players for KR CHALLENGER.
+2026-09-09 07:36:20,541 [INFO] Loaded 150 players for KR GRANDMASTER.
+2026-09-09 07:36:23,124 [INFO] Loaded 624 players for KR MASTER.
+2026-09-09 07:36:25,122 [INFO] Loaded 13 players for EUN1 CHALLENGER.
+2026-09-09 07:36:27,097 [INFO] Loaded 18 players for EUN1 GRANDMASTER.
+2026-09-09 07:36:29,376 [INFO] Loaded 81 players for EUN1 MASTER.
+2026-09-09 07:36:31,106 [INFO] Loaded 15 players for BR1 CHALLENGER.
+2026-09-09 07:36:33,239 [INFO] Loaded 23 players for BR1 GRANDMASTER.
+2026-09-09 07:36:34,971 [INFO] Loaded 90 players for BR1 MASTER.
+2026-09-09 07:36:37,399 [INFO] Loaded 20 players for JP1 CHALLENGER.
+2026-09-09 07:36:39,877 [INFO] Loaded 37 players for JP1 GRANDMASTER.
+2026-09-09 07:36:42,342 [INFO] Loaded 168 players for JP1 MASTER.
+2026-09-09 07:36:43,735 [INFO] Successfully recorded 2454 snapshots for Run ID 13.
+2026-09-09 07:36:43,739 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-09 07:38:45,275 [INFO] Enriched 10/200 candidates. Harvested 702 lobby names so far.
+2026-09-09 07:40:15,455 [INFO] Enriched 20/200 candidates. Harvested 1040 lobby names so far.
+2026-09-09 07:41:37,977 [INFO] Enriched 30/200 candidates. Harvested 1319 lobby names so far.
+2026-09-09 07:42:54,566 [INFO] Enriched 40/200 candidates. Harvested 1615 lobby names so far.
+2026-09-09 07:44:25,985 [INFO] Enriched 50/200 candidates. Harvested 1858 lobby names so far.
+2026-09-09 07:45:07,727 [WARNING] Rate limited (429). Sleeping for 6s...
+2026-09-09 07:45:49,105 [INFO] Enriched 60/200 candidates. Harvested 2000 lobby names so far.
+2026-09-09 07:47:01,472 [INFO] Enriched 70/200 candidates. Harvested 2191 lobby names so far.
+2026-09-09 07:47:22,016 [WARNING] Rate limited (429). Sleeping for 2s...
+2026-09-09 07:47:59,706 [INFO] Enriched 80/200 candidates. Harvested 2290 lobby names so far.
+2026-09-09 07:49:00,111 [INFO] Enriched 90/200 candidates. Harvested 2365 lobby names so far.
+2026-09-09 07:49:16,455 [WARNING] Rate limited (429). Sleeping for 10s...
+2026-09-09 07:50:09,725 [INFO] Enriched 100/200 candidates. Harvested 2472 lobby names so far.
+2026-09-09 07:51:08,437 [INFO] Enriched 110/200 candidates. Harvested 2521 lobby names so far.
+2026-09-09 07:51:49,830 [INFO] Enriched 120/200 candidates. Harvested 2566 lobby names so far.
+2026-09-09 07:52:45,186 [INFO] Enriched 130/200 candidates. Harvested 2697 lobby names so far.
+2026-09-09 07:53:42,235 [INFO] Enriched 140/200 candidates. Harvested 2794 lobby names so far.
+2026-09-09 07:54:37,895 [INFO] Enriched 150/200 candidates. Harvested 2851 lobby names so far.
+2026-09-09 07:55:41,825 [INFO] Enriched 160/200 candidates. Harvested 2973 lobby names so far.
+2026-09-09 07:56:34,000 [INFO] Enriched 170/200 candidates. Harvested 3071 lobby names so far.
+2026-09-09 07:57:22,497 [INFO] Enriched 180/200 candidates. Harvested 3137 lobby names so far.
+2026-09-09 07:58:41,045 [INFO] Enriched 190/200 candidates. Harvested 3279 lobby names so far.
+2026-09-09 07:59:27,069 [WARNING] Rate limited (429). Sleeping for 7s...
+2026-09-09 07:59:38,632 [INFO] Enriched 200/200 candidates. Harvested 3351 lobby names so far.
+2026-09-09 07:59:39,037 [INFO] Resolving names directly for 8 active climbers without names...
+2026-09-09 07:59:44,326 [INFO] Successfully resolved and cached 8 additional player names.
