@@ -34,20 +34,15 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 1. Stage only the database
+          
+          # Stage the updated database first
           git add tft_analytics.db
-
-          # 2. Discard unstaged changes to any other files (like log files)
-          git checkout -- . 2>/dev/null || true
-          git clean -f -d
-
-          # 3. Commit and push only if the database changed
+          
+          # Only commit and push if the database actually changed
           if ! git diff --staged --quiet; then
             git commit -m "Automated snapshot update [skip ci]"
-            git pull --rebase origin main
             git push origin main
             echo "Database successfully updated and pushed."
           else
-            echo "No changes detected in database."
+            echo "No database changes detected."
           fi
