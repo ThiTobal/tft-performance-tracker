@@ -1,0 +1,39 @@
+name: Scheduled TFT Ingestion Pipeline
+
+on:
+  schedule:
+    # Runs twice a day at 09:00 UTC (06:00 BRT) and 21:00 UTC (18:00 BRT)
+    - cron: '0 9,21 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab at any time
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests python-dotenv
+
+      - name: Execute Pipeline
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: |
+          python tft_pipeline.py
+
+      - name: Commit and Push Updated Database
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add tft_analytics.db
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated snapshot update [skip ci]" && git push origin main)
