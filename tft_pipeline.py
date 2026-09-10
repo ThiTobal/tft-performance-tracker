@@ -24,7 +24,7 @@ TARGET_REGIONS = ["na1", "euw1", "kr", "eun1", "br1", "jp1"]
 TIERS = ["challenger", "grandmaster", "master"]
 TOP_CANDIDATE_LIMIT = 200  # Enriched with Top 1s
 ACTIVE_RESOLVE_LIMIT_PER_REGION = 30  # Resolves names for top active climbers per region
-RETENTION_DAYS = 5
+MAX_RUNS_TO_KEEP = 10
 
 REGION_TO_CLUSTER = {
     "na1": "americas",
@@ -436,24 +436,27 @@ def run_pipeline():
     conn.commit()
     conn.close()
 
-    # Purge snapshots older than RETENTION_DAYS
+    # Purge snapshots older than MAX_RUNS_TO_KEEP
     purge_historical_data()
 
 def purge_historical_data():
-    """Purges runs and snapshots older than RETENTION_DAYS (preserves player_identities cache)."""
+    """Keeps only the newest MAX_RUNS_TO_KEEP runs and purges older records."""
     conn = get_connection()
     cursor = conn.cursor()
-    cutoff_ts = int(time.time()) - (RETENTION_DAYS * 86400)
-    
-    cursor.execute("SELECT run_id FROM pipeline_runs WHERE run_timestamp < ?", (cutoff_ts,))
-    old_runs = [r[0] for r in cursor.fetchall()]
-    
-    if old_runs:
-        cursor.execute(f"DELETE FROM player_snapshots WHERE run_id IN ({','.join('?'*len(old_runs))})", old_runs)
-        cursor.execute("DELETE FROM pipeline_runs WHERE run_timestamp < ?", (cutoff_ts,))
-        conn.commit()
-        logging.info(f"Purged {len(old_runs)} runs older than {RETENTION_DAYS} days.")
-    conn.close()
 
-if __name__ == "__main__":
-    run_pipeline()
+    # Select all run_ids beyond the newest MAX_RUNS_TO_KEEP
+    cursor.execute("""
+        SELECT run_id FROM pipeline_runs 
+        ORDER BY run_id DESC 
+        LIMIT -1 OFFSET ?
+    """, (MAX_RUNS_TO_KEEP,))
+    old_runs = [r[0] for r in cursor.fetchall()]
+
+    if old_runs:
+        placeholders = ",".join(["?"] * len(old_runs))
+        cursor.execute(f"DELETE FROM player_snapshots WHERE run_id IN ({placeholders})", old_runs)
+        cursor.execute(f"DELETE FROM pipeline_runs WHERE run_id IN ({placeholders})", old_runs)
+        conn.commit()
+        logging.info(f"Purged {len(old_runs)} older runs. Preserving latest {MAX_RUNS_TO_KEEP} runs.")
+
+    conn.close()

@@ -83,7 +83,7 @@ else:
     num_windows = st.sidebar.slider(
         "Lookback Span (Windows)",
         min_value=1,
-        max_value=min(4, max_possible_windows),
+        max_value=min(9, max_possible_windows),
         value=1,
         help="1 window = last run only. 2+ windows = sums deltas across consecutive runs."
     )
