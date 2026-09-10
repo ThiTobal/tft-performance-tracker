@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs twice a day at 09:00 UTC (06:00 BRT) and 21:00 UTC (18:00 BRT)
     - cron: '0 9,21 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab at any time
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
 
 jobs:
   run-pipeline:
@@ -34,16 +34,20 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Stage the database file
+
+          # 1. Stage only the database
           git add tft_analytics.db
 
-          # Only commit, rebase, and push if changes exist
+          # 2. Discard unstaged changes to any other files (like log files)
+          git checkout -- . 2>/dev/null || true
+          git clean -f -d
+
+          # 3. Commit and push only if the database changed
           if ! git diff --staged --quiet; then
             git commit -m "Automated snapshot update [skip ci]"
             git pull --rebase origin main
             git push origin main
-            echo "Database updated and pushed successfully."
+            echo "Database successfully updated and pushed."
           else
-            echo "No database changes detected to commit."
+            echo "No changes detected in database."
           fi
