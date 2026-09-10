@@ -4,6 +4,12 @@ import sqlite3
 import logging
 from datetime import datetime, timedelta
 import requests
+from dotenv import load_dotenv
+
+# Load variables from .env file into environment
+load_dotenv()
+
+API_KEY = os.getenv("RIOT_API_KEY")
 
 # Logging Configuration
 logging.basicConfig(
@@ -13,7 +19,6 @@ logging.basicConfig(
 )
 
 # Configuration Parameters
-API_KEY = os.getenv("RIOT_API_KEY", "RGAPI-a6bb4301-c134-4ed9-ad3d-782b04e49784")
 DB_NAME = "tft_analytics.db"
 TARGET_REGIONS = ["na1", "euw1", "kr", "eun1", "br1", "jp1"]
 TIERS = ["challenger", "grandmaster", "master"]
