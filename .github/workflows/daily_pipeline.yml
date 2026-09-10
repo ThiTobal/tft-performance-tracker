@@ -34,6 +34,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
+          
+          # Stage the database file
           git add tft_analytics.db
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated snapshot update [skip ci]" && git push origin main)
+
+          # Only commit, rebase, and push if changes exist
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated snapshot update [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+            echo "Database updated and pushed successfully."
+          else
+            echo "No database changes detected to commit."
+          fi
