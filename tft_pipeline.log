@@ -620,3 +620,318 @@
 2026-09-09 07:59:38,632 [INFO] Enriched 200/200 candidates. Harvested 3351 lobby names so far.
 2026-09-09 07:59:39,037 [INFO] Resolving names directly for 8 active climbers without names...
 2026-09-09 07:59:44,326 [INFO] Successfully resolved and cached 8 additional player names.
+2026-09-10 06:29:51,346 [INFO] Previous run detected (ID: 13). Window: 1788950163 -> 1789032591
+2026-09-10 06:29:51,502 [INFO] Loaded 5510 known player identities from local cache.
+2026-09-10 06:29:53,561 [INFO] Loaded 42 players for NA1 CHALLENGER.
+2026-09-10 06:29:56,662 [INFO] Loaded 129 players for NA1 GRANDMASTER.
+2026-09-10 06:29:59,015 [INFO] Loaded 405 players for NA1 MASTER.
+2026-09-10 06:30:01,323 [INFO] Loaded 66 players for EUW1 CHALLENGER.
+2026-09-10 06:30:03,587 [INFO] Loaded 162 players for EUW1 GRANDMASTER.
+2026-09-10 06:30:06,114 [INFO] Loaded 507 players for EUW1 MASTER.
+2026-09-10 06:30:08,955 [INFO] Loaded 70 players for KR CHALLENGER.
+2026-09-10 06:30:11,234 [INFO] Loaded 187 players for KR GRANDMASTER.
+2026-09-10 06:30:14,277 [INFO] Loaded 693 players for KR MASTER.
+2026-09-10 06:30:16,794 [INFO] Loaded 16 players for EUN1 CHALLENGER.
+2026-09-10 06:30:18,675 [INFO] Loaded 24 players for EUN1 GRANDMASTER.
+2026-09-10 06:30:20,598 [INFO] Loaded 94 players for EUN1 MASTER.
+2026-09-10 06:30:22,833 [INFO] Loaded 15 players for BR1 CHALLENGER.
+2026-09-10 06:30:24,969 [INFO] Loaded 29 players for BR1 GRANDMASTER.
+2026-09-10 06:30:27,030 [INFO] Loaded 107 players for BR1 MASTER.
+2026-09-10 06:30:29,594 [INFO] Loaded 25 players for JP1 CHALLENGER.
+2026-09-10 06:30:31,562 [INFO] Loaded 43 players for JP1 GRANDMASTER.
+2026-09-10 06:30:34,745 [INFO] Loaded 182 players for JP1 MASTER.
+2026-09-10 06:30:36,411 [INFO] Successfully recorded 2796 snapshots for Run ID 14.
+2026-09-10 06:30:36,419 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-10 06:32:45,028 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:46,105 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:48,460 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:49,468 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:50,473 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:51,482 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:52,404 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:53,392 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:54,506 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:55,282 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:56,117 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:57,012 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:57,826 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:58,661 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:32:59,639 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:00,581 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:00,721 [INFO] Enriched 10/200 candidates. Harvested 537 lobby names so far.
+2026-09-10 06:33:01,773 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:02,902 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:04,146 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:05,058 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:06,065 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:07,082 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:08,164 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:09,140 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:10,038 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:11,064 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:11,999 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:13,054 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:14,395 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:15,286 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:16,368 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:17,353 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:18,358 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:19,265 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:20,202 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:21,141 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:22,080 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:23,118 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:24,115 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:24,942 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:25,857 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:26,803 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:27,689 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:28,750 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:29,707 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:30,641 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:31,625 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:32,635 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:33,616 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:34,490 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:35,423 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:36,321 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:37,392 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:38,362 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:39,309 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:40,274 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:41,243 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:42,206 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:43,227 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:44,419 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:45,444 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:46,469 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:47,547 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:48,501 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:49,417 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:50,516 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:51,417 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:52,326 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:53,306 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:54,501 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:55,439 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:56,585 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:57,576 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:58,719 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:33:59,866 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:00,934 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:01,853 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:02,777 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:03,733 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:04,639 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:05,560 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:06,565 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:07,600 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:08,525 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:09,553 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:10,509 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:11,463 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:12,605 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:13,528 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:14,536 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:15,583 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:16,591 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:17,760 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:18,769 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:19,659 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:20,648 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:21,617 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:22,541 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:23,521 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:24,530 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:25,533 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:26,496 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:27,509 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:29,077 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:30,179 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:31,110 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:32,114 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:33,098 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:34,021 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:34,927 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:35,801 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:36,859 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:37,709 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:38,660 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:39,568 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:40,541 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:41,671 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:42,687 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:43,609 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:44,677 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:45,518 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:46,620 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:47,633 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:48,612 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:49,627 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:50,554 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:51,607 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:52,590 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:53,618 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:54,617 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:55,696 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:56,729 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:57,978 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:34:59,019 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:00,010 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:01,071 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:02,054 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:03,034 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:04,002 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:05,053 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:06,086 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:07,153 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:08,077 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:09,010 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:10,069 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:11,037 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:12,113 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:13,050 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:14,033 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:15,106 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:16,121 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:17,220 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:18,287 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:19,284 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:20,550 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:21,652 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:22,617 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:23,841 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:24,728 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:26,285 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:27,343 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:28,456 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:29,410 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:30,496 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:31,479 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:32,664 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:33,631 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:34,560 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:35,596 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:36,628 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:37,499 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:38,603 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:39,637 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:40,658 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:41,765 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:42,749 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:43,688 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:44,661 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:45,541 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:46,519 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:47,393 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:48,428 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:49,378 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:50,408 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:51,370 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:52,378 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:53,410 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:54,351 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:55,347 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:56,508 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:57,456 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:58,620 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:35:59,609 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:00,590 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:01,630 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:02,537 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:03,484 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:04,635 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:05,655 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:06,718 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:07,746 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:08,777 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:09,743 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:10,891 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:12,491 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:13,910 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:14,651 [INFO] Resolving names directly for 19 active climbers without names...
+2026-09-10 06:36:15,946 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:16,899 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:18,160 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:19,188 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:20,039 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:20,887 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:21,732 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:22,605 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:23,452 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:24,258 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:25,165 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:26,132 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:27,035 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:28,077 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:29,037 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:29,991 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:30,822 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:31,761 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 06:36:32,846 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:36,163 [INFO] Previous run detected (ID: 13). Window: 1788950163 -> 1789034796
+2026-09-10 07:06:36,254 [INFO] Loaded 5521 known player identities from local cache.
+2026-09-10 07:06:37,247 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:37,804 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:38,330 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:38,821 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:39,279 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:39,740 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:40,403 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:41,047 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:41,754 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:42,585 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:43,469 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:43,953 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:44,492 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:45,042 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:45,621 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:46,803 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:48,112 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:48,762 [ERROR] API Error 401: {"status":{"message":"Unknown apikey","status_code":401}}
+2026-09-10 07:06:48,769 [INFO] Successfully recorded 0 snapshots for Run ID 15.
+2026-09-10 07:07:19,347 [INFO] Previous run detected (ID: 13). Window: 1788950163 -> 1789034839
+2026-09-10 07:07:19,434 [INFO] Loaded 5521 known player identities from local cache.
+2026-09-10 07:07:19,974 [INFO] Loaded 42 players for NA1 CHALLENGER.
+2026-09-10 07:07:21,759 [INFO] Loaded 129 players for NA1 GRANDMASTER.
+2026-09-10 07:07:23,892 [INFO] Loaded 405 players for NA1 MASTER.
+2026-09-10 07:07:25,849 [INFO] Loaded 66 players for EUW1 CHALLENGER.
+2026-09-10 07:07:27,541 [INFO] Loaded 162 players for EUW1 GRANDMASTER.
+2026-09-10 07:07:30,315 [INFO] Loaded 511 players for EUW1 MASTER.
+2026-09-10 07:07:32,154 [INFO] Loaded 70 players for KR CHALLENGER.
+2026-09-10 07:07:34,828 [INFO] Loaded 187 players for KR GRANDMASTER.
+2026-09-10 07:07:39,522 [INFO] Loaded 698 players for KR MASTER.
+2026-09-10 07:07:41,489 [INFO] Loaded 16 players for EUN1 CHALLENGER.
+2026-09-10 07:07:43,242 [INFO] Loaded 24 players for EUN1 GRANDMASTER.
+2026-09-10 07:07:45,223 [INFO] Loaded 94 players for EUN1 MASTER.
+2026-09-10 07:07:46,953 [INFO] Loaded 15 players for BR1 CHALLENGER.
+2026-09-10 07:07:48,678 [INFO] Loaded 29 players for BR1 GRANDMASTER.
+2026-09-10 07:07:50,391 [INFO] Loaded 107 players for BR1 MASTER.
+2026-09-10 07:07:52,790 [INFO] Loaded 25 players for JP1 CHALLENGER.
+2026-09-10 07:07:55,213 [INFO] Loaded 43 players for JP1 GRANDMASTER.
+2026-09-10 07:07:57,626 [INFO] Loaded 183 players for JP1 MASTER.
+2026-09-10 07:07:59,309 [INFO] Successfully recorded 2806 snapshots for Run ID 16.
+2026-09-10 07:07:59,313 [INFO] Starting Top 1 enrichment for 200 top performers...
+2026-09-10 07:09:49,270 [INFO] Enriched 10/200 candidates. Harvested 658 lobby names so far.
+2026-09-10 07:11:31,083 [INFO] Enriched 20/200 candidates. Harvested 1017 lobby names so far.
+2026-09-10 07:13:05,152 [INFO] Enriched 30/200 candidates. Harvested 1268 lobby names so far.
+2026-09-10 07:15:23,411 [INFO] Enriched 40/200 candidates. Harvested 1600 lobby names so far.
+2026-09-10 07:17:21,331 [INFO] Enriched 50/200 candidates. Harvested 1828 lobby names so far.
+2026-09-10 07:18:56,463 [WARNING] Network error: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)). Retrying in 5s...
+2026-09-10 07:19:25,302 [INFO] Enriched 60/200 candidates. Harvested 2086 lobby names so far.
+2026-09-10 07:21:11,177 [INFO] Enriched 70/200 candidates. Harvested 2254 lobby names so far.
+2026-09-10 07:23:02,851 [INFO] Enriched 80/200 candidates. Harvested 2399 lobby names so far.
+2026-09-10 07:24:33,046 [INFO] Enriched 90/200 candidates. Harvested 2520 lobby names so far.
+2026-09-10 07:26:02,565 [INFO] Enriched 100/200 candidates. Harvested 2648 lobby names so far.
+2026-09-10 07:27:48,747 [INFO] Enriched 110/200 candidates. Harvested 2859 lobby names so far.
+2026-09-10 07:28:41,263 [INFO] Enriched 120/200 candidates. Harvested 2899 lobby names so far.
+2026-09-10 07:30:01,467 [INFO] Enriched 130/200 candidates. Harvested 2961 lobby names so far.
+2026-09-10 07:31:20,431 [INFO] Enriched 140/200 candidates. Harvested 3051 lobby names so far.
+2026-09-10 07:32:28,881 [INFO] Enriched 150/200 candidates. Harvested 3102 lobby names so far.
+2026-09-10 07:33:25,984 [INFO] Enriched 160/200 candidates. Harvested 3156 lobby names so far.
+2026-09-10 07:34:22,644 [INFO] Enriched 170/200 candidates. Harvested 3210 lobby names so far.
+2026-09-10 07:35:23,730 [INFO] Enriched 180/200 candidates. Harvested 3291 lobby names so far.
+2026-09-10 07:36:24,143 [INFO] Enriched 190/200 candidates. Harvested 3326 lobby names so far.
+2026-09-10 07:37:11,670 [INFO] Enriched 200/200 candidates. Harvested 3403 lobby names so far.
+2026-09-10 07:37:12,150 [INFO] Resolving names directly for 16 active climbers without names...
+2026-09-10 07:37:27,487 [INFO] Successfully resolved and cached 16 additional player names.
