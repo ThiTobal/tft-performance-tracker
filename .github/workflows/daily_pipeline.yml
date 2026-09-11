@@ -3,7 +3,7 @@ name: Scheduled TFT Ingestion Pipeline
 on:
   schedule:
     # Runs twice a day at 09:00 UTC (06:00 BRT) and 21:00 UTC (18:00 BRT)
-    - cron: '0 9,21 * * *'
+    - cron: '0 10,22 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
 
 jobs:
