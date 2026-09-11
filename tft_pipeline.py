@@ -460,3 +460,6 @@ def purge_historical_data():
         logging.info(f"Purged {len(old_runs)} older runs. Preserving latest {MAX_RUNS_TO_KEEP} runs.")
 
     conn.close()
+
+if __name__ == "__main__":
+    run_pipeline()
