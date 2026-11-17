@@ -1,0 +1,58 @@
+name: Scheduled TFT Ingestion Pipeline
+
+on:
+  schedule:
+    # Runs twice a day at 08:00 UTC (05:00 BRT) and 20:00 UTC (17:00 BRT)
+    - cron: '0 08,20 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
+
+# This public repo holds code only. The database lives in a private data repo.
+permissions:
+  contents: read
+
+concurrency:
+  group: ladder-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Checkout private data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.DATA_REPO }}        # e.g. ThiTobal/tft-tracker-data
+          token: ${{ secrets.DATA_REPO_TOKEN }}    # fine-grained token: Contents read/write on the data repo only
+          path: data
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv
+
+      - name: Execute pipeline
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+          DB_PATH: data/tft_analytics.db
+        run: python tft_pipeline.py
+
+      - name: Save database to the private data repo
+        working-directory: data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Keep a single commit holding only the latest database, so the data
+          # repo doesn't grow by ~60 MB on every run and keeps no old copies.
+          git checkout --orphan snapshot
+          git rm -r --cached -q . || true
+          git add tft_analytics.db
+          git commit -q -m "Snapshot $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+          git push --force origin snapshot:main

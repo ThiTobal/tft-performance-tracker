@@ -1,0 +1,14 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Data never goes in this public repo
+*.db
+*.db-journal
+data/
+
+# Local scratch
+*.log
+pbe_test.py
+.venv/
+__pycache__/
